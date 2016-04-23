@@ -1,0 +1,36 @@
+.item {
+  background-color: #fff;
+  padding: 12px;
+  width: 200px;
+  height: 220px;
+  text-align: center;
+  display: inline-block;
+  -webkit-box-shadow: 10px 10px 40px -17px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 40px -17px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 40px -17px rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+img {
+
+}
+
+.title {
+  font-size: 11px;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.price-wrapper {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+}
+
+.price {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}

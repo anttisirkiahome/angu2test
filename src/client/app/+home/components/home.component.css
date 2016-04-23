@@ -10,4 +10,19 @@ input {
 ul {
   list-style-type: none;
   padding: 0 0 0 8px;
+  margin: 0;
+}
+
+huuto-item {
+  width: 200px;
+  height: 220px;
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.items-wrapper {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
 }

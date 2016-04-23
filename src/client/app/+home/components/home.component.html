@@ -16,7 +16,7 @@
 <div *ngIf="state">
   got a total of {{items.totalCount}} items! <br />
   <br />
-  <ul>
-    <li *ngFor="#item of items.items"><huuto-item [item]="item"></huuto-item></li>
-  </ul>
+  <div class="items-wrapper">
+    <div *ngFor="#item of items.items"><huuto-item [item]="item"></huuto-item></div>
+  </div>
 </div>
